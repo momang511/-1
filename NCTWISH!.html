@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title> NCT WISH </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+        body { margin:0px; 
+            background-image:url("wish.JPG");
+            background-size: cover;
+           
+
+        }
+        div {
+            font-family: "Noto Serif KR", Helvetica, sans-serif;
+            text-align:center;
+            font-weight:700;
+            font-size:15pt;
+            line-height:40px;
+        }
+        .menubox {
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .topmenu1 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(0,0,0,0);
+        }
+        .topmenu2 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(0,0,0,0);
+        }
+        .topmenu3 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(0,0,0,0);
+        }
+        .topmenu4 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(0,0,0,0);
+        }
+        .topmenu5 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(0,0,0,0);
+        }
+        .topmenu6 {
+            flex-basis: 20%;
+            transition:1s;
+            background-color: rgba(255, 111, 250, 0);
+        }
+        .topmenu1:hover {
+            background-color: rgba(136, 35, 133, 0.3);
+        }
+        .topmenu2:hover {
+            background-color: rgba(217, 30, 30, 0.3);
+        }
+        .topmenu3:hover {
+            background-color: rgba(42, 50, 209, 0.3);
+        }
+        .topmenu4:hover {
+            background-color: rgba(33, 89, 56, 0.3);
+        }
+        .topmenu5:hover {
+            background-color: rgba(251, 241, 61, 0.3);
+        }
+        .topmenu6:hover {
+            background-color: rgba(255, 96, 250, 0.3);
+        }
+        .submenu {
+            transition:0.5s;
+            background-color: rgba(255,255,0,0);
+        }
+        .submenu:hover {
+            background-color: rgba(120, 255, 71, 0.3);
+        }
+        .menusub {
+            display:none;
+        }
+    </style>
+  </head>
+  <body>
+    <script>
+        function showbox(dpname) {
+            let box = document.getElementById(dpname);
+            box.style.display = "block";
+        }
+    </script>
+<div class="background" onclick="window.location.href='https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW'"></div>    
+<div class="menubox">
+    <div class="topmenu1" onClick="showbox('submenu1')">SION
+        <div class="menusub" id="submenu1">
+            <div class="submenu">02.05.11</div>
+            <div class="submenu">OhSion</div>
+            <div class="submenu">Mokpo</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+    <div class="topmenu2" onClick="showbox('submenu2')">RIKU
+        <div class="menusub" id="submenu2">
+            <div class="submenu">03.06.28</div>
+            <div class="submenu">MaedaRiku</div>
+            <div class="submenu">Fukui</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+    <div class="topmenu3" onClick="showbox('submenu3')">YUSHI
+        <div class="menusub" id="submenu3">
+            <div class="submenu">04.04.05</div>
+            <div class="submenu">TokunoYushi</div>
+            <div class="submenu">Tokyo</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+    <div class="topmenu4" onClick="showbox('submenu4')">JAEHEE
+        <div class="menusub" id="submenu4">
+            <div class="submenu">05.06.21</div>
+            <div class="submenu">KimDaeyoung</div>
+            <div class="submenu">Daegu</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+    <div class="topmenu5" onClick="showbox('submenu5')">RYO
+        <div class="menusub" id="submenu5">
+            <div class="submenu">07.08.04</div>
+            <div class="submenu">HiroseRyo</div>
+            <div class="submenu">Kyoto</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+    <div class="topmenu6" onClick="showbox('submenu6')">SAKUYA
+        <div class="menusub" id="submenu6">
+            <div class="submenu">07.11.18</div>
+            <div class="submenu">FujinagaSakuya</div>
+            <div class="submenu">Saitama</div>
+            <a class="submenu" href="https://youtu.be/wNXS8JW8c8E?si=ZHk2wVDicvb4B9pW" target="_blank">NCTWISH</a>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
